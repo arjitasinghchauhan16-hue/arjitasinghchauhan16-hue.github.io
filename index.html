@@ -2,29 +2,100 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="spotify.css">
 </head>
 <body>
-    <div class="main">
-        <header>
-            <div class="logo">
-                <a href="#"><i class="fa-brands fa-spotify"></i></a>
+
+    
+    <header class="navbar">
+        <div class="logo">Spotify</div>
+        <input type="text" placeholder="What do you want to play?" class="search">
+        <div class="nav-buttons">
+            <button class="btn">Install App</button>
+            <button class="btn login">Log in</button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        
+        <aside class="sidebar">
+            <h3>Your Library</h3>
+            <div class="playlist-box">
+                <p>Create your first playlist</p>
+                <button>Create playlist</button>
             </div>
-            <div class="search">
-                <h1>spotify</h1>
-            </div>
-            <div class="log-in--sign-up">
-                <button class="sign-up"><a href="/SignIn-LogIn/sign-up.html"></a>Sign up</button>
-                <button class="log-in"><a href="/SignIn-LogIn/lgg-in.html"></a>log in</button>
-            </div>
-        </header>
-        <iframe src="" width="25%" height="700"></iframe>
-        <iframe src="" width="74%" height="700"></iframe>
+        </aside>
+<main class="content">
+
+      <section class="section">
+        <h2>Popular artists</h2>
+
+<div class="artists">
+    <div class="artist-card">
+        <img src="https://wallpaperaccess.com/full/8450402.jpg" alt="Arijit Singh">
+        <h4>Arijit Singh</h4>
+        <p>Artist</p>
     </div>
 
-    <script src="./script.js"></script>
+    <div class="artist-card">
+        <img src="https://i.pinimg.com/550x/30/34/a5/3034a5e0a5514b619cdd8dc34b64a7d9.jpg" alt="Jeon Jungkook">
+        <h4>Jeon Jungkook</h4>
+        <p>Artist</p>
+    </div>
+
+ 
+    <div class="artist-card">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.nzrS_M3XbTWLWF9tsLn_3QHaF7?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Arpit Bala">
+        <h4>Tailor Swift</h4>
+        <p>Artist</p>
+    </div>
+
+     <div class="artist-card">
+        <img src="https://thatgrapejuice.net/wp-content/uploads/2025/08/Doja-Cat-announcing-tour-TGJ.png" alt="Doja Cat">
+        <h4>Doja Cat</h4>
+        <p>Artist</p>
+    </div>
+
+</div>
+</section>
+
+
+<section class="section">
+        
+<section class="section">
+    <h2>Trending songs</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/16/ac/6f/16ac6fdc-f3cd-6588-bd58-163cf41f7e58/00843930018314.rgb.jpg/1200x1200bf-60.jpg" alt="Century by EsDeeKid">
+            <h4>Bad Blood</h4>
+            <p>Tailor Swift</p>
+        </div>
+
+        <div class="card">
+            <img src="https://is3-ssl.mzstatic.com/image/thumb/Music114/v4/27/3e/14/273e1405-41f2-8290-679e-10c75f2ff4ec/886449193172.jpg/1200x1200bf-60.jpg" alt="Shayad">
+            <h4>Shayad</h4>
+            <p>Pritam, Jubin Nautiyal</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.squarespace-cdn.com/content/v1/5aa2069c25bf02363bf5c7c4/1695531743414-Z8XLCICZB5ZUV153XZED/jk-3d-concept-photo-1d-1.jpeg" alt="3D">
+            <h4>3D</h4>
+            <p>Jeon Jungkook</p>
+        </div>
+
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/7e/be/c1/7ebec13b8aea77815619c0f24d56c944.jpg" alt="RUN BTS">
+            <h4>RUN BTS</h4>
+            <p>BTS</p>
+        </div>
+    </div>
+ </section>
+
+</main>
+
 </body>
 </html>
